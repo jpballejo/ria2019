@@ -64,12 +64,25 @@ body {
 
 .tareas .lista li a {
 	color: #212121;
-	display: block;
+	display: inline-block;
 	padding: 20px 0;
 	text-decoration: none;
 }
 
-.tareas .lista li a:hover {
+
+
+.tareas .lista li div: {
+		color:red;
+	
+}
+.tareas .lista li :hover {
 	text-decoration: line-through;
-	color: red;
+	display: inline-block;
+	color:blue;
+}
+.btnDel: hover {color: red;
+display: inline-block;}
+
+.estado: checked{
+	background-color: red;
 }
