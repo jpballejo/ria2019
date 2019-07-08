@@ -53,36 +53,53 @@ body {
 	border: 1px solid #fff;
 }
 
+
+
+
+
 /* - Tareas - */
 .tareas .lista {
 	list-style: none;
 }
 
 .tareas .lista li {
-	border-bottom: 1px solid #B6B6B6;
+	border-bottom: 2px solid #B6B6B6;
+	padding: 10px 0px;
+	
 }
 
 .tareas .lista li a {
 	color: #212121;
-	display: inline-block;
 	padding: 20px 0;
 	text-decoration: none;
-}
-
-
-
-.tareas .lista li div: {
-		color:red;
 	
 }
-.tareas .lista li :hover {
-	text-decoration: line-through;
-	display: inline-block;
-	color:blue;
-}
-.btnDel: hover {color: red;
-display: inline-block;}
 
-.estado: checked{
-	background-color: red;
+.tareas .lista li a div p   {
+	display: inline-block;
+	padding: 10px ;
+}
+
+.tareas .lista li a p:hover {
+  color: red;
+	text-decoration-style: dotted;
+
+}
+
+.btnDel {
+	padding: 3px 10px;
+  border-radius: 4px;
+  background-color: white; 
+  color: black; 
+  border: 2px solid #f44336;
+}
+
+.btnDel:hover {
+  background-color: #f44336;
+  color: white;
+} /* Red */ 
+
+input[type="checkbox"]:checked {
+box-sizing: border-box;
+ 
 }
